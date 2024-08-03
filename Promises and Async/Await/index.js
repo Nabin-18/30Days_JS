@@ -92,8 +92,8 @@ fetch('https://jsonplaceholder.typicode.com/posts/1')
 //use the fetch API to get data form an public API and log the responce data to the console using async/await
 
 async function fetchData() {
-    const res = await fetch('https://jsonplaceholder.typicode.com/posts/2');
-    const data = await res.json();
+    const responce = await fetch('https://jsonplaceholder.typicode.com/posts/2');
+    const data = await responce.json();
     console.log(data);
 }
 
