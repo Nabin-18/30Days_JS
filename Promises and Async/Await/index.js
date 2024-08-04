@@ -54,9 +54,10 @@ promise2.then((message) => {
     return promise4;
 }).then((message) => {
     console.log(message);
+    console.log("Hello message", message);
 })
 
-//using async/await
+//using async/await ,some updated examples
 
 //write an async function that waits a promise to resolve and logs the message in console
 
@@ -98,3 +99,19 @@ async function fetchData() {
 }
 
 fetchData();
+
+//using async/await with axios
+
+//install axios using npm
+
+
+//use axios to get data form an public API and log the responce data to the console using async/await
+
+const axios = require('axios');
+
+async function fetchData1() {
+    const responce = await axios.get('https://jsonplaceholder.typicode.com/posts/3');
+    console.log(responce.data);
+}
+
+fetchData1();
