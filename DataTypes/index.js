@@ -46,4 +46,10 @@ console.log(b);
 // b=10; this will give error
 // console.log(b);
 
+//Data types in JavaScript
+
+const num1=10;
+console.log(typeof num1);
+
+
 
