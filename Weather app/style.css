@@ -10,11 +10,12 @@
     /* justify-content: center; */
     align-items: center;
     height: 400px;
-    margin: auto;
+    margin: 100px auto;
     background-color: #f1f1f1;
     gap: 8px;
     width: 600px;
-    border: 2px solid red;
+    border-radius: 8px;
+    padding: 20px;
 }
 .weather-box{
     width: 80%;
