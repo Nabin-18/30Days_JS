@@ -57,5 +57,13 @@ let result = concatenateStrings(str1, str2);
 
 console.log(result); // Output: Hello, world!
 
+//write a function expression to add two numbers and return the result
+// Function to add two numbers
+
+function addNumbers(num1, num2) {
+    return num1 + num2;
+}
+
+
 
 
