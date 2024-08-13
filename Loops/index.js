@@ -70,6 +70,7 @@ factorial(5);
 
 
 //write a program to print * using nested loop 
+//in this case , i and j are used 
 
 const printStar = () => {
     for (let i = 1; i <= 5; i++) {
@@ -81,3 +82,4 @@ const printStar = () => {
     }
 }
 printStar();
+
