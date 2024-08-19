@@ -65,5 +65,10 @@ function addNumbers(num1, num2) {
 }
 
 
+const beautiful=(username)=>{
+    console.log("Beautiful place and photography by ",username)
+}
+beautiful("hitesth sir")
+
 
 
