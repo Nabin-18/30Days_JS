@@ -40,3 +40,14 @@ Student.prototype.greet = function () {
 Person.greetAll = function () {
     return `Hello everyone!`;
 }
+
+//add a static property to the person class that stores the number of instances of the person class created. Increment this property each time a new instance of the person class is created.
+
+Person.count = 0;
+Person.prototype.constructor = function (name, age) {
+    this.name = name;
+    this.age = age;
+    Person.count++;
+}
+
+
