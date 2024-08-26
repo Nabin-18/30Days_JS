@@ -73,3 +73,13 @@ for (let i = 0; i < 5; i++) {
 }
 console.log(matrix)
 console.log(matrix[2][2])
+
+//use map method to create a new array that contains the sum of each row in the matrix
+
+let sumArray = matrix.map((row) => {
+    return row.reduce((total, index) => {
+        return total + index;
+    }, 0);
+}
+);
+console.log(sumArray);
